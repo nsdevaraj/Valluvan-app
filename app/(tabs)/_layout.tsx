@@ -15,20 +15,29 @@ export default function TabLayout() {
         headerShown: false,
       }}>
       <Tabs.Screen
-        name="index"
+        name="aram"
         options={{
-          title: 'Virtue',
+          title: 'அறத்துப்பால்',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+            <TabBarIcon name={focused ? 'leaf' : 'leaf-outline'} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="porul"
         options={{
-          title: 'Wealth',
+          title: 'பொருட்பால்',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'business' : 'business-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="inbam"
+        options={{
+          title: 'காமத்துப்பால்',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'heart' : 'heart-outline'} color={color} />
           ),
         }}
       />

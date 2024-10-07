@@ -1038,7 +1038,7 @@
     json5 "^2.2.2"
     write-file-atomic "^2.3.0"
 
-"@expo/metro-config@0.18.11":
+"@expo/metro-config@0.18.11", "@expo/metro-config@~0.18.11":
   version "0.18.11"
   resolved "https://registry.npmjs.org/@expo/metro-config/-/metro-config-0.18.11.tgz"
   integrity sha512-/uOq55VbSf9yMbUO1BudkUM2SsGW1c5hr9BnhIqYqcsFv0Jp5D3DtJ4rljDKaUeNLbwr6m7pqIrkSMq5NrYf4Q==
@@ -3794,7 +3794,16 @@ expect@^29.0.0, expect@^29.7.0:
     jest-message-util "^29.7.0"
     jest-util "^29.7.0"
 
-expo-asset@^10.0.10, expo-asset@~10.0.10:
+expo-asset@^10.0.10:
+  version "10.0.10"
+  resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-10.0.10.tgz#9e6e02c1a6ec3d19b50d5e615e4dd8e5cc30e857"
+  integrity sha512-0qoTIihB79k+wGus9wy0JMKq7DdenziVx3iUkGvMAy2azscSgWH6bd2gJ9CGnhC6JRd3qTMFBL0ou/fx7WZl7A==
+  dependencies:
+    expo-constants "~16.0.0"
+    invariant "^2.2.4"
+    md5-file "^3.2.3"
+
+expo-asset@~10.0.10:
   version "10.0.10"
   resolved "https://registry.npmjs.org/expo-asset/-/expo-asset-10.0.10.tgz"
   integrity sha512-0qoTIihB79k+wGus9wy0JMKq7DdenziVx3iUkGvMAy2azscSgWH6bd2gJ9CGnhC6JRd3qTMFBL0ou/fx7WZl7A==
@@ -3845,6 +3854,11 @@ expo-dev-menu@5.0.21:
   dependencies:
     expo-dev-menu-interface "1.8.3"
     semver "^7.5.4"
+
+expo-file-system@^17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-17.0.1.tgz#b9f8af8c1c06ec71d96fd7a0d2567fa9e1c88f15"
+  integrity sha512-dYpnZJqTGj6HCYJyXAgpFkQWsiCH3HY1ek2cFZVHFoEc5tLz9gmdEgTF6nFHurvmvfmXqxi7a5CXyVm0aFYJBw==
 
 expo-file-system@~17.0.1:
   version "17.0.1"
@@ -3935,7 +3949,7 @@ expo-splash-screen@~0.27.5:
 
 expo-sqlite@^14.0.6:
   version "14.0.6"
-  resolved "https://registry.npmjs.org/expo-sqlite/-/expo-sqlite-14.0.6.tgz"
+  resolved "https://registry.yarnpkg.com/expo-sqlite/-/expo-sqlite-14.0.6.tgz#6306ff523e6d0a27ec812b1897592269acacf4da"
   integrity sha512-T3YNx7LT7lM4UQRgi8ml+cj0Wf3Ep09+B4CVaWtUCjdyYJIZjsHDT65hypKG+r6btTLLEd11hjlrstNQhzt5gQ==
   dependencies:
     "@expo/websql" "^1.0.1"
@@ -5868,7 +5882,7 @@ metro-cache@0.80.12:
     flow-enums-runtime "^0.0.6"
     metro-core "0.80.12"
 
-metro-config@0.80.12, metro-config@^0.80.3:
+metro-config@0.80.12, metro-config@^0.80.12, metro-config@^0.80.3:
   version "0.80.12"
   resolved "https://registry.npmjs.org/metro-config/-/metro-config-0.80.12.tgz"
   integrity sha512-4rwOWwrhm62LjB12ytiuR5NgK1ZBNr24/He8mqCsC+HXZ+ATbrewLNztzbAZHtFsrxP4D4GLTGgh96pCpYLSAQ==

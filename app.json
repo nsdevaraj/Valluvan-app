@@ -23,13 +23,17 @@
       },
       "package": "com.nsdevaraj.Valluvanapp"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
@@ -38,6 +42,11 @@
       "eas": {
         "projectId": "eeb3f075-033c-4d63-850a-5a1359181c10"
       }
-    }
+    },
+    "assets": [
+      "./assets/fonts",
+      "./assets/images",
+      "./assets/db/data.sqlite"
+    ]
   }
 }
